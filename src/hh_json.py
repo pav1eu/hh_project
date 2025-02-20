@@ -1,7 +1,6 @@
 import json
 from abc import ABC
 from pathlib import Path
-from src.hh_vacancy import Vacancy
 
 
 class VacancyFile(ABC):
@@ -18,6 +17,7 @@ class VacancyFile(ABC):
     def delete_vacancies(self, criteria):
         pass
 
+
 class JSONVacancy(VacancyFile):
     def __init__(self, file_path="vacancies.json"):
         self.__file_path = Path(file_path)
@@ -26,7 +26,7 @@ class JSONVacancy(VacancyFile):
 
     def _load_data(self):
         try:
-            with open(self.__file_path, 'r', encoding='utf-8') as f:
+            with open(self.__file_path, "r", encoding="utf-8") as f:
                 content = f.read().strip()
                 return json.loads(content) if content else []
         except FileNotFoundError:
@@ -37,7 +37,7 @@ class JSONVacancy(VacancyFile):
 
     def _save_data(self, data):
         try:
-            with open(self.__file_path, 'w', encoding='utf-8') as file:
+            with open(self.__file_path, "w", encoding="utf-8") as file:
                 json.dump(data, file, ensure_ascii=False, indent=4)
         except Exception as e:
             print(f"Ошибка при записи файла {e}")
@@ -62,5 +62,9 @@ class JSONVacancy(VacancyFile):
 
     def delete_vacancies(self, criteria):
         data = self._load_data()
-        data = [item for item in data if not all(item.get(key) == value for key, value in criteria.tem())]
+        data = [
+            item
+            for item in data
+            if not all(item.get(key) == value for key, value in criteria.items())
+        ]
         self._save_data(data)
