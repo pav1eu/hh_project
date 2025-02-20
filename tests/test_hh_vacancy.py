@@ -122,7 +122,8 @@ def test_str_method(vacancy_python_developer):
 
     assert (
             str(vacancy_python_developer)
-            == "Вакансия: Python_developer,\nОписание: Разработка и поддержка, back end части веб-приложений.,\nЗарплата: 100000 - 120000,\nURL: https://hh.ru/applicant/vacancy_response?vacancyId=117286365"
+            == "Вакансия: Python_developer,\nОписание: Разработка и поддержка, back end части веб-приложений.,"
+               "\nЗарплата: 100000 - 120000,\nURL: https://hh.ru/applicant/vacancy_response?vacancyId=117286365"
     )
 
 

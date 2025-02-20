@@ -4,6 +4,10 @@ from pathlib import Path
 
 
 class VacancyFile(ABC):
+    """
+    Абстрактный базовый класс для работы с файлами вакансий.
+    Определяет интерфейс для добавления, получения и удаления вакансий.
+    """
 
     @staticmethod
     def add_vacancies(self, vacancies):
@@ -19,6 +23,12 @@ class VacancyFile(ABC):
 
 
 class JSONVacancy(VacancyFile):
+    """
+    Класс для работы с вакансиями, хранящимися в JSON-файле.
+    Реализует методы для добавления, получения и удаления вакансий
+    из JSON-файла.
+    """
+
     def __init__(self, file_path="vacancies.json"):
         self.__file_path = Path(file_path)
         if not self.__file_path.exists():

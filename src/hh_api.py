@@ -4,6 +4,7 @@ import requests
 
 
 class BaseApi(ABC):
+    """Абстрактный класс для получния API запроса"""
 
     @abstractmethod
     def get_api(self):
@@ -15,6 +16,7 @@ class BaseApi(ABC):
 
 
 class HeadHunterApi(BaseApi):
+    """Класс получения API запроса и проверка на положительный ответ"""
 
     def __init__(self, url="https://api.hh.ru/vacancies"):
         self.url = url

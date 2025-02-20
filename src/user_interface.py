@@ -6,6 +6,11 @@ from src.hh_vacancy import Vacancy
 def user_interaction():
     platform = HeadHunterApi()
     storage = JSONVacancy("C:/Users/alvis/work/tmp/hh_project/data/vacancies.json")
+    """
+    Класс, реализующий пользовательский интерфейс.
+    Предоставляет методы для взаимодействия с пользователем,
+    отображения меню и обработки пользовательского ввода.
+    """
 
     if not platform.get_api():
         print("Не удалось подключиться к API hh.ru")
@@ -31,7 +36,7 @@ def user_interaction():
             data = storage._load_data()
             vacancies_list = [
                 Vacancy(**vacancy) for vacancy in data
-            ]  # Преобразуем словари в объекты Vacancy
+            ]
             sorted_vacancies = sorted(
                 vacancies_list,
                 key=lambda x: (x.salary_from + x.salary_to) / 2,

@@ -1,5 +1,10 @@
 class Vacancy:
     __slots__ = ["name", "description", "salary_from", "salary_to", "url"]
+    """
+    Класс для представления вакансии.
+    Содержит информацию о вакансии, такую как название,
+    зарплата, описание и т.д.
+    """
 
     def __init__(self, name, url, description=None, salary_from=None, salary_to=None):
         self.name = name
@@ -36,23 +41,21 @@ class Vacancy:
         """Метод для формирования списка вакансий из данных платформы"""
         vacancies = []
         for job_data in platform_data:
-            # Извлекаем необходимые данные из вложенных словарей с проверками на None
             name = job_data.get("name", "Название не указано")
             url = job_data.get(
                 "apply_alternate_url", ""
-            )  # Например, можно взять альтернативный URL отклика
+            )
 
-            # Извлекаем данные по зарплате, добавляем проверку на None
             salary_from = (
                 job_data.get("salary", {}).get("from", 0)
                 if job_data.get("salary")
                 else 0
             )
+
             salary_to = (
                 job_data.get("salary", {}).get("to", 0) if job_data.get("salary") else 0
             )
 
-            # Извлекаем описание из department с дополнительной проверкой на None
             department = job_data.get("department")
             description = (
                 department.get("name", "Описание не указано")
@@ -60,7 +63,6 @@ class Vacancy:
                 else "Описание не указано"
             )
 
-            # Создаем объект Vacancy с полученными данными
             vacancy = Vacancy(
                 name=name,
                 url=url,
