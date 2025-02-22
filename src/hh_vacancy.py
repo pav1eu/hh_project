@@ -18,7 +18,7 @@ class Vacancy:
     def _validate(self):
         if not self.name or not self.url:
             raise ValueError("Эти аттрибуты обязательны")
-        if self.salary_from < 0 or self.salary_to < 0:
+        if self.salary_from <= 0 or self.salary_to <= 0:
             raise ValueError("Зарплата должна быть положительной")
         if self.salary_from > self.salary_to:
             raise ValueError("Минимальная зарплата должна быть больше максимальной")
