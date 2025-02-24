@@ -18,10 +18,12 @@ class Vacancy:
     def _validate(self):
         if not self.name or not self.url:
             raise ValueError("Эти аттрибуты обязательны")
-        if self.salary_from <= 0 or self.salary_to <= 0:
+        if self.salary_from < 0 or self.salary_to < 0:
             raise ValueError("Зарплата должна быть положительной")
         if self.salary_from > self.salary_to:
             raise ValueError("Минимальная зарплата должна быть больше максимальной")
+        if self.salary_from == 0 and self.salary_to == 0:
+            return "Максимальная и минимальная зарплаты не указаны"
 
     def __str__(self):
         return f"Вакансия: {self.name},\nОписание: {self.description},\nЗарплата: {self.salary_from} - {self.salary_to},\nURL: {self.url}"

@@ -2,8 +2,8 @@
     {
         "name": "Python Developer",
         "url": "https://example.com/1",
-        "salary_from": 100000,
-        "salary_to": 120000,
+        "salary_from": 0,
+        "salary_to": 0,
         "description": "Разработка приложений"
     },
     {
