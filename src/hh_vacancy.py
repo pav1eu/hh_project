@@ -20,10 +20,12 @@ class Vacancy:
             raise ValueError("Эти аттрибуты обязательны")
         if self.salary_from < 0 or self.salary_to < 0:
             raise ValueError("Зарплата должна быть положительной")
-        if self.salary_from > self.salary_to:
+        if self.salary_from > self.salary_to > 1:
             raise ValueError("Минимальная зарплата должна быть больше максимальной")
-        if self.salary_from == 0 and self.salary_to == 0:
-            return "Максимальная и минимальная зарплаты не указаны"
+        if self.salary_from == 0:
+            self.salary_from = 'Обговаривается на собеседовании'
+        if self.salary_to == 0:
+            self.salary_to = 'Обговаривается на собеседовании'
 
     def __str__(self):
         return f"Вакансия: {self.name},\nОписание: {self.description},\nЗарплата: {self.salary_from} - {self.salary_to},\nURL: {self.url}"

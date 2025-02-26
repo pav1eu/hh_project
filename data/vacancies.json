@@ -1,163 +1,72 @@
 [
     {
-        "name": "Python Developer",
-        "url": "https://example.com/1",
-        "salary_from": 0,
-        "salary_to": 0,
-        "description": "Разработка приложений"
-    },
-    {
-        "name": "Data Scientist",
-        "url": "https://example.com/2",
-        "salary_from": 150000,
-        "salary_to": 200000,
-        "description": "Анализ данных"
-    },
-    {
-        "name": "Python Developer",
-        "url": "https://example.com/3",
-        "salary_from": 130000,
-        "salary_to": 150000,
-        "description": "Работа с данными"
-    },
-    {
-        "name": "Помощник электрика",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117033600",
-        "salary_from": 0,
-        "salary_to": 500000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Электрик",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117192773",
-        "salary_from": 0,
-        "salary_to": 440000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Ведущий инженер",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117286522",
-        "salary_from": 120000,
-        "salary_to": 140000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Персональный водитель",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=116058099",
-        "salary_from": 5000000,
-        "salary_to": 7000000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Электрик",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117121295",
-        "salary_from": 350000,
-        "salary_to": 400000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Ведущий офис-менеджер",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117255215",
-        "salary_from": 130000,
-        "salary_to": 170000,
-        "description": "Sminex Служба комфорта"
-    },
-    {
-        "name": "Дежурный электрик",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117212683",
-        "salary_from": 120000,
-        "salary_to": 180000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Сервисный инженер-техник, Канада (Engineer technician, Canada, LMIA)",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=69655724",
-        "salary_from": 3700,
-        "salary_to": 4000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Инженер-электрик (энергетик)",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=116937544",
-        "salary_from": 600000,
-        "salary_to": 700000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Водитель-экспедитор со своим автомобилем",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117102510",
-        "salary_from": 180000,
-        "salary_to": 250000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Электрик",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117246895",
-        "salary_from": 380000,
-        "salary_to": 450000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Администратор посуточных квартир",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117031114",
-        "salary_from": 90000,
-        "salary_to": 160000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Помощник по кадрам",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117308216",
-        "salary_from": 50000,
-        "salary_to": 65000,
-        "description": "Описание не указано"
-    },
-    {
-        "name": "Техник по эксплуатации",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117134003",
+        "name": "QA тестировщик (Manual)",
+        "description": "Описание не указано",
         "salary_from": 140000,
-        "salary_to": 160000,
-        "description": "Описание не указано"
+        "salary_to": 240000,
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117225826"
     },
     {
-        "name": "Электрик",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=115909902",
-        "salary_from": 400000,
-        "salary_to": 450000,
-        "description": "Описание не указано"
+        "name": "QA Engineer",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117751497"
     },
     {
-        "name": "Наладчик оборудования",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117138617",
-        "salary_from": 600000,
-        "salary_to": 650000,
-        "description": "Описание не указано"
+        "name": "Разработчик бэк-энда Python",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117539614"
     },
     {
-        "name": "Электрик в пищевой цех",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117003953",
-        "salary_from": 400000,
-        "salary_to": 450000,
-        "description": "Описание не указано"
+        "name": "Тестировщик/QA manual",
+        "description": "Описание не указано",
+        "salary_from": 150000,
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117737371"
     },
     {
-        "name": "Помощник по хозяйству (Ватутинки)",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117088661",
-        "salary_from": 130000,
-        "salary_to": 140000,
-        "description": "Описание не указано"
+        "name": "QA Manual Engineer (Middle) / Инженер-тестировщик (ручное тестирование)",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117742718"
     },
     {
-        "name": "Электрик",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117081476",
-        "salary_from": 7000000,
-        "salary_to": 8000000,
-        "description": "Описание не указано"
+        "name": "Аналитик данных",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117721720"
     },
     {
-        "name": "Дежурный электрик",
-        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117065011",
-        "salary_from": 0,
-        "salary_to": 0,
-        "description": "Описание не указано"
+        "name": "Python-разработчик",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117750015"
+    },
+    {
+        "name": "QA-инженер",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117730462"
+    },
+    {
+        "name": "Frontend React",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117687774"
+    },
+    {
+        "name": "Стажер Python Engineer",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117015393"
     }
 ]
