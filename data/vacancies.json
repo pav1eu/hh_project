@@ -1,0 +1,72 @@
+[
+    {
+        "name": "QA тестировщик (Manual)",
+        "description": "Описание не указано",
+        "salary_from": 140000,
+        "salary_to": 240000,
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117225826"
+    },
+    {
+        "name": "QA Engineer",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117751497"
+    },
+    {
+        "name": "Разработчик бэк-энда Python",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117539614"
+    },
+    {
+        "name": "Тестировщик/QA manual",
+        "description": "Описание не указано",
+        "salary_from": 150000,
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117737371"
+    },
+    {
+        "name": "QA Manual Engineer (Middle) / Инженер-тестировщик (ручное тестирование)",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117742718"
+    },
+    {
+        "name": "Аналитик данных",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117721720"
+    },
+    {
+        "name": "Python-разработчик",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117750015"
+    },
+    {
+        "name": "QA-инженер",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117730462"
+    },
+    {
+        "name": "Frontend React",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117687774"
+    },
+    {
+        "name": "Стажер Python Engineer",
+        "description": "Описание не указано",
+        "salary_from": "Обговаривается на собеседовании",
+        "salary_to": "Обговаривается на собеседовании",
+        "url": "https://hh.ru/applicant/vacancy_response?vacancyId=117015393"
+    }
+]
